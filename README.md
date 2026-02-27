@@ -1,5 +1,21 @@
-# Firebase Studio
+# BJsDevelopmentProjects
 
-This is a NextJS starter in Firebase Studio.
+Local SaaS & POC container examples
 
-To get started, take a look at src/app/page.tsx.
+## 🚀 Overview
+
+This repository contains experimental POCs built locally and containerized using Docker.
+
+## 🛠 Prerequisites
+
+Install:
+* Docker 20+
+* Docker Compose
+
+## 📦 Quick Start
+
+```bash
+git clone https://github.com/teamturnersolutions/BJsDevelopmentProjects.git
+cd BJsDevelopmentProjects
+
+docker compose up --build
