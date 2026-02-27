@@ -1,0 +1,8 @@
+.git
+.next
+node_modules
+README.md
+apphosting.yaml
+components.json
+.dockerignore
+Dockerfile
