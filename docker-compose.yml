@@ -5,7 +5,6 @@ services:
     ports:
       - "9002:9002"
     volumes:
-      - ./inventory.csv:/app/inventory.csv
-      - ./team-members.csv:/app/team-members.csv
-    # environment:
-    #   - GOOGLE_GENAI_API_KEY=your_api_key_here
+      - ./inventory.csv:/app/inventory.csv  # Testing data
+      - ./team-members.csv:/app/team-members.csv  # Testing data
+
